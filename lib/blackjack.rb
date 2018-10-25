@@ -58,7 +58,5 @@ def runner
   hit
   until display_card_total > 21
   hit
-else
 end_game
-end
 end
