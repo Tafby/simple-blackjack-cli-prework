@@ -51,7 +51,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(number)
   welcome
   initial_round
   hit?(display_card_total)
