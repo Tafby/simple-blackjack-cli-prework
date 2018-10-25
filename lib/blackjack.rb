@@ -14,6 +14,7 @@ end
 def prompt_user
   puts "Type 'h' to hit or 's' to stay"
   answer = gets.chomp
+  return answer
 end
 
 def get_user_input
