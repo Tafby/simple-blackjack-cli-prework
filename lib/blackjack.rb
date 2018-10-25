@@ -60,6 +60,5 @@ def runner
   hit
 else
 end_game
-  
 end
     
