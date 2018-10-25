@@ -33,10 +33,14 @@ end
 def hit?(number)
   prompt_user
   answer = get_user_input
-  while answer != "s" || answer != "h"
+  if answer == "s"
+    return number
+  elsif answer == "h"
+  deal_card
+  return number
+else 
   invalid_command
   prompt_user
-  get_user_input
 end
 
 end
