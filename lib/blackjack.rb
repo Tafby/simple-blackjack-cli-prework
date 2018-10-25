@@ -36,11 +36,11 @@ def hit?(number)
   if answer == "s"
     return number
   elsif answer == "h"
-  deal_card
-  return number
-else 
-  invalid_command
-  prompt_user
+    deal_card
+    return number
+  else 
+    invalid_command
+    prompt_user
 end
 
 end
