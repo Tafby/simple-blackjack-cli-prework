@@ -34,6 +34,10 @@ def hit?(number)
   prompt_user
   answer = get_user_input
   while answer != "s" || answer != "h"
+  invalid_command
+  prompt_user
+  get_user_input
+end
 
 end
 
