@@ -30,9 +30,10 @@ def initial_round
   
 end
 
-def hit?(card_total)
+def hit?(number)
   prompt_user
-  get_user_input
+  answer = get_user_input
+  while answer != "s" || answer != "h"
 
 end
 
