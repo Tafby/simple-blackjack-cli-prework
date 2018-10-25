@@ -52,10 +52,11 @@ end
 #####################################################
 
 def runner(deal_card)
-  welcome
-  initial_round
-  hit?(display_card_total)
-  until display_card_total > 21
-    end_game(display_card_total)
-end
+   welcome
+  hand = initial_round
+  until hand > 21 do
+    hand = hit?(hand)
+    display_card_total(hand)
+  end
+  end_game(hand)
 end
