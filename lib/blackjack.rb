@@ -42,7 +42,6 @@ def hit?(number)
     invalid_command
     prompt_user
 end
-
 end
 
 def invalid_command
@@ -54,6 +53,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  hit
+  
 end
     
